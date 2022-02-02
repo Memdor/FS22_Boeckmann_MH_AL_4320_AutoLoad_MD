@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<translationContributors>MEMDOR</translationContributors>
+    <texts>
+		<text name="function_PalletAutoload_Trailer" text="Anhänger mit Autoload für verschiedene Paletten." />
+		<text name="type_PalletAutoload_Trailer" text="Paletten Autoloader" />
+		<text name="unit_PalletAutoload_Car_Trailer" text="Paletten" />
+		<text name="configuration_aPalletAutoloader_4320" text="Maximale Zuladdung" />
+		<text name="configuration_Pallet_6" text="6 Paletten" />
+		<text name="configuration_Pallet_12" text="12 Paletten" />
+	</texts>
+</l10n>

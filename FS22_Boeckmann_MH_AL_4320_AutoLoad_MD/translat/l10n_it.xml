@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<l10n>
+	<translationContributors>MEMDOR</translationContributors>
+    <texts>
+		<text name="function_PalletAutoload_Trailer" text="Rimorchio con caricamento automatico per pallet." />
+		<text name="type_PalletAutoload_Trailer" text="Caricamento automatico di pallet" />
+		<text name="unit_PalletAutoload_Car_Trailer" text="Pallet" />
+		<text name="configuration_aPalletAutoloader_4320" text="Carico massimo" />
+		<text name="configuration_Pallet_6" text="6 Pallet" />
+		<text name="configuration_Pallet_12" text="12 Pallet" />
+	</texts>
+</l10n>

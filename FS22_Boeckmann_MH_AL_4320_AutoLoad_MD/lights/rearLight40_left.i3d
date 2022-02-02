@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="iso-8859-1"?>
+<i3D name="mhal4320" version="1.6" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://i3d.giants.ch/schema/i3d-1.6.xsd">
+    <Asset>
+        <Export program="GIANTS Editor 64bit" version="9.0.2"/>
+    </Asset>
+    <Files>
+        <File fileId="5" filename="$data/shaders/vehicleShader.xml"/>
+        <File fileId="1" filename="$data/shared/assets/lights/lizard/rearLight40.i3d"/>
+        <File fileId="3" filename="$data/shared/assets/lights/lizard/rearLight40_normal.png"/>
+        <File fileId="4" filename="$data/shared/assets/lights/lizard/rearLight40_vmask.png"/>
+        <File fileId="9" filename="$data/shared/clearPlastic_diffuse.png"/>
+    </Files>
+    <Materials>
+        <Material name="clearPlastic_mat" materialId="80" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
+            <Texture fileId="9"/>
+            <Normalmap fileId="3"/>
+            <Glossmap fileId="4"/>
+            <CustomParameter name="RDT" value="0 0 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="1 1 1 2"/>
+            <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+            <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+            <CustomParameter name="lightControl" value="0 0 0 0"/>
+            <CustomParameter name="blinkOffset" value="0 0 1 0"/>
+        </Material>
+        <Material name="rearLight40_mat" materialId="81" diffuseColor="0.498039 0.498039 0.498039 1" alphaBlending="true" customShaderId="5" customShaderVariation="staticLight">
+            <Normalmap fileId="3"/>
+            <Glossmap fileId="4"/>
+            <CustomParameter name="RDT" value="0 0 0 0"/>
+            <CustomParameter name="dirtColor" value="0.2 0.14 0.08 0"/>
+            <CustomParameter name="colorMat0" value="1 1 1 2"/>
+            <CustomParameter name="colorMat1" value="1 0.25 0 2"/>
+            <CustomParameter name="colorMat2" value="0.5 0 0 2"/>
+            <CustomParameter name="colorMat3" value="0.1 0.1 1 1"/>
+            <CustomParameter name="colorMat4" value="1 1 0.1 1"/>
+            <CustomParameter name="colorMat5" value="0.05 0.05 0.05 1"/>
+            <CustomParameter name="colorMat6" value="1 0.1 1 1"/>
+            <CustomParameter name="colorMat7" value="0.1 1 1 1"/>
+            <CustomParameter name="lightControl" value="0 0 0 0"/>
+            <CustomParameter name="blinkOffset" value="0 0 1 0"/>
+        </Material>
+    </Materials>
+    <Shapes externalShapesFile="rearLight40_left.i3d.shapes"/>
+    <Dynamics/>
+    <Scene>
+        <TransformGroup name="rearLight40_left" translation="0.708171 0.536569 -2.97381" rotation="-90 0 -180" referenceId="1" nodeId="95">
+            <Shape shapeId="1" name="rearLight40Static_left" clipDistance="75" nodeId="96" materialIds="81" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="2" name="rearLight40Static_left1" clipDistance="75" nodeId="97" materialIds="81" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="3" name="rearLight40Static_left2" clipDistance="75" nodeId="98" materialIds="81" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="4" name="glassStatic" translation="0.000444489 0.0400659 2.86102e-06" clipDistance="75" nodeId="99" materialIds="80" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="5" name="glassStatic1" translation="0.000444489 0.0400659 2.86102e-06" clipDistance="75" nodeId="100" materialIds="80" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+            <Shape shapeId="6" name="glassStatic2" translation="0.000444489 0.0400659 2.86102e-06" clipDistance="75" nodeId="101" materialIds="80" castsShadows="true" receiveShadows="true" decalLayer="1"/>
+        </TransformGroup>
+    </Scene>
+</i3D>
