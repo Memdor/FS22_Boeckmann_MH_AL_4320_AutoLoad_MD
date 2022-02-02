@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="63">
+    <author>MEMDOR</author>
+    <version>1.1.0.0</version>
+    <title>
+        <en>Boeckmann MH-AL-4320 Auto-Load.</en>
+        <de>Boeckmann MH-AL-4320 Auto-Lader.</de>
+        <fr>Boeckmann MH-AL-4320 Chargement Automatique.</fr>
+        <it>Boeckmann MH-AL-4320 Caricatore Automatico.</it>
+    </title>
+    <description>
+        <en><![CDATA[
+Achimobil "Pallet Autoloader Specialization" is required for the Pallet Autoloader function.
+
+Boeckmann MH-AL-4320 car trailer with pallet autoloader function facilitates your work with productions and numerous pallets. 
+
+Up to 12 Euro pallets can be transported with one tour.
+
+Euro pallets, liquid tanks, BigBag pallets, cotton round bales and oversized Euro pallets can be loaded by the pallet autoloader specialization.
+
+The payload can be selected in the store between 6 and 12 Euro pallets. 
+Color choice for rims.
+
+Changelog V 1.1.0.0
+- Driving behavior at full charge improved.
+- Tested with TestRunner_public (GIANTS).
+- New store image added
+- New icon image added
+- Description in modDesc adjusted
+
+Changelog V 1.0.8.0
+- Lights problem fixed
+    
+Changelog V 1.0.7.0
+- Color selection rims 
+- Logos attached
+            ]]></en>
+			
+        <de><![CDATA[
+Für die Funktion des Paletten-Autoloader wird die „Paletten Autoloader Spezialisierung“ von Achimobil benötigt.
+
+Boeckmann MH-AL-4320 Auto-Anhänger mit Paletten-Autoloader Funktion erleichter Ihnen die Arbeit mit den Produktionen und den zahlreichen Paletten. 
+
+Bis zu 12 Euro-Paletten können mit einer Tour transportiert werden.
+
+Euro-Paletten,  Flüssigkeitstanks, BigBag Paletten, Baumwolle Rundballen und übergroße Euro-Paletten können von der Paletten Autoloader Spezialisierung geladen werden.
+
+Die Zuladung kann im Shop zwischen 6 und 12 Euro Paletten gewählt werden. 
+Farbwahl für Felgen.
+
+Changelog V 1.1.0.0
+- Fahrverhalten bei Vollladung verbessert.
+- Getestet mit TestRunner_public (GIANTS).
+- Neues Store Bild hinzugefügt
+- Neues Icon Bild hinzugefügt
+- Beschreibung in der modDesc angepasst
+
+Changelog V 1.0.8.0
+- Lichter Problem behoben
+    
+Changelog V 1.0.7.0
+- Farbauswahl Felgen 
+- Logos angebracht
+            ]]></de>
+			
+        <fr><![CDATA[
+Pour la fonction autochargeur de palettes, la "spécialisation autochargeur de palettes" d'Achimobil est nécessaire.
+
+La remorque auto Boeckmann MH-AL-4320 avec fonction autochargeuse de palettes vous facilite le travail avec les productions et les nombreuses palettes. 
+
+Jusqu'à 12 euro-palettes peuvent être transportées en une seule tournée.
+
+Les palettes Euro, les citernes de liquide, les palettes BigBag, les balles rondes de coton et les palettes Euro surdimensionnées peuvent être chargées par la spécialisation Palettes Autoloader.
+
+La charge utile peut être choisie dans la boutique entre 6 et 12 palettes Euro. 
+Choix de la couleur des jantes.
+
+Changelog V 1.1.0.0
+- Driving behavior at full charge improved.
+- Tested with TestRunner_public (GIANTS).
+- Nouvelle image Store ajoutée
+- Nouvelle image d'icône ajoutée
+- Description adaptée dans le modDesc
+
+Changelog V 1.0.8.0
+- Lights problem fixed
+    
+Changelog V 1.0.7.0
+- Color selection rims 
+- Logos attached
+            ]]></fr>
+			
+        <it><![CDATA[
+La "Specializzazione Pallet Autoloader" di Achimobil è necessaria per la funzione Pallet Autoloader.
+
+Il rimorchio per auto Boeckmann MH-AL-4320 con funzione di caricatore automatico di pallet vi facilita il lavoro con produzioni e numerosi pallet. 
+
+Fino a 12 europallet possono essere trasportati in un solo viaggio.
+
+Gli europallet, i serbatoi di liquidi, i pallet BigBag, le balle rotonde di cotone e gli europallet sovradimensionati possono essere caricati dalla specializzazione del caricatore automatico di pallet.
+
+La capacità di carico può essere selezionata in negozio tra 6 e 12 europallet. 
+Scelta del colore dei cerchi.
+
+Changelog V 1.1.0.0
+- Comportamento di guida migliorato a piena carica.
+- Testato con TestRunner_public (GIANTS).
+- Aggiunta una nuova immagine del negozio
+- Aggiunta una nuova immagine icona
+- Descrizione nel modDesc adattata
+
+Changelog V 1.0.8.0
+- Problema delle luci risolto
+    
+Changelog V 1.0.7.0
+- Selezione del colore dei cerchi 
+- Loghi allegati
+            ]]></it>
+    </description>
+	
+    <iconFilename>icon_mhal4320.png</iconFilename>
+	
+    <multiplayer supported="true"/>
+	
+    <storeItems>
+        <storeItem xmlFilename="mhal4320.xml"/>
+    </storeItems>
+
+    <dependencies>
+        <dependency>FS22_aPalletAutoLoader</dependency>
+    </dependencies>
+
+    <brands>
+        <brand name="MEMDOR" title="MEMDOR" image="brand.icon.dds"/>
+    </brands>
+
+    <vehicleTypes>
+        <type name="PalletAutoLoaderCarTrailer" parent="trailer" filename="$dataS/scripts/vehicles/Vehicle.lua">
+            <specialization name="FS22_aPalletAutoLoader.aPalletAutoLoader"/>
+        </type>
+    </vehicleTypes>
+	
+    <l10n filenamePrefix="translat/l10n"/>
+	
+</modDesc>
